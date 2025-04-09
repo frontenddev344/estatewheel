@@ -254,7 +254,7 @@ li.site-logo.desktop-logo {
     position: absolute;
     width: max-content;
     padding: 20px;
-    background: var(--t);
+    background: rgba(255, 255, 255, 0.10);
     border: 1px solid rgba(255 255 255 /20%);
     top: calc(100% + 60px);
     left: 0;

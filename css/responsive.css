@@ -332,6 +332,7 @@
 
 	.site-nav li:hover ul.submenu{
 		display: block;
+		background: transparent;
 	}	
 	.toggle .site-nav {
 		transform: translateX(0);
