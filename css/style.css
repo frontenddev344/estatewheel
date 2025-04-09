@@ -69,7 +69,7 @@ h6 {
 }
 
 p{
-    color:var(--black);
+    color:#fff;
     font-family: Helvetica;
     font-size: 18px;
     font-style: normal;
@@ -846,11 +846,86 @@ span.highlight {
 }
 
 
-
-
-
 /* why styling start */
 
+/* blog section start  */
+/* blog-sec start  */
+.blog-sec {
+    padding: 80px 0;
+}
+
+.blog-card-wrap {
+    margin-top: 40px;
+}
+
+.blog-sec .section-title {
+    text-align: center;
+}
+
+.blog-sec .sub-title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-card-wrap .grid {
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.load-more {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.blog-card {
+    transition: all 0.2s linear;
+    border: 1px solid #ffffff40;
+}
+
+.blog-image {
+    border-radius: inherit;
+    height: 240px;
+    background: #003b62;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.blog-content {
+    border-radius: inherit;
+    padding: 35px;
+}
+
+.blog-content p {
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin:25px 0;
+}
+
+.blog-date {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.blog-date span {
+    font-size: 14px;
+    font-weight: 600;
+    color:#fff;
+    line-height: 1;
+}
+
+.blog-content > a {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: var(--theme-clr);
+}
+/* blog section end  */
 
 /* faq start  */
 .faq {
