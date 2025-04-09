@@ -882,18 +882,21 @@ span.highlight {
 }
 
 .blog-image {
-    border-radius: inherit;
     height: 240px;
-    background: #003b62;
+    width: 100%;
+    overflow: hidden;
 }
 
 .blog-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: inherit;
+    transition: all 0.2s linear;
 }
 
+.blog-card:hover .blog-image img {
+    transform: scale(1.2);
+}
 .blog-content {
     border-radius: inherit;
     padding: 35px;
