@@ -194,7 +194,7 @@ p{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 10px 30px;
     border-bottom: 1px solid rgba(255 255 255 /20%);
     max-width: 100%;
 }
@@ -219,7 +219,7 @@ li.site-logo.desktop-logo {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .site-nav li{
@@ -286,6 +286,134 @@ li.site-logo.desktop-logo {
 }
 .site-nav .closed-menu a {
     font: inherit;
+}
+
+/* langauge dropdown start  */
+.custom-lang-dropdown {
+position: relative;
+display: inline-block;
+font-family: sans-serif;
+}
+
+.lang-toggle {
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.10);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.lang-toggle span {
+margin-left: 6px;
+}
+
+.lang-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+    list-style: none;
+    display: none;
+    z-index: 10;
+   
+}
+
+.lang-menu li {
+padding: 8px 12px;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.lang-menu li:hover {
+    color: var(--theme-clr);
+}
+.custom-lang-dropdown.open .lang-menu {
+display: block;
+}
+  
+/* langauge dropdown end  */
+
+.call-us a {
+    color: #FFF;
+    position: relative;
+    transition: all 0.2s linear;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+}
+
+.nav-right::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 95px;
+    background: rgba(255, 255, 255, 0.30);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.follow-us {
+    position: relative;
+}
+
+.follow-us span {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+ul.social {
+    display: block;
+    position: absolute;
+    width: max-content;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255 255 255 /20%);
+    top: calc(100% + 60px);
+    left: 0;
+    transition: all 0.2s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+ul.social li a {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s linear; 
+}
+
+ul.social li a:hover{
+    color: var(--theme-clr);
+}
+.follow-us:hover ul.social {
+    opacity: 1;
+    visibility: visible;
+    top:100%;
 }
 /*header end*/ 
 .section-title {
@@ -684,60 +812,6 @@ span.highlight {
 }
 
 
-.track-record {
-    background: var(--black);
-    position: relative;
-}
-.track-record-wrap {
-    background: #fff;
-}
-.track-record-content {
-    padding: 110px 70px;
-}
-.track-record-wrap > .grid {
-    grid-template-columns: 2fr 1fr;
-}
-.track-record-card-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-}
-
-.track-record-card {
-    padding: 25px 75px;
-    border: 1px solid var(--gray);
-}
-.track-record-card:first-child {
-    border-width: 0 0 0 1px;
-}
-.track-record-card:nth-child(2) {
-    border-width: 0 1px 0 1px;
-}
-.track-record-card:nth-child(3) {
-    border-width: 1px 0 0 1px;
-}
-.track-record-card:nth-child(4) {
-    border-bottom: 0;
-}
-.track-record-content h5 {
-    color: #1A1A1A;
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 140%;
-    margin: 0 0 47px 80px;
-}
-
-.track-record-card h4 {
-    background: linear-gradient(90deg, #BF9455 0%, #F5F2AA 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 140%;
-    margin: 0 0 12px;
-}
-
 .coommercail-sales {
     position: relative;
     height: 100%;
@@ -1114,8 +1188,52 @@ font-weight: 400;
 .popular-areas-warp .grid {
     grid-gap: 34px;
 }
+
+.popular-areas-slider {
+    padding-bottom: 80px;
+}
+
+.swiper-button-prev.popular-areas-prev {
+    bottom: 0px;
+    top: auto;
+    color: hsl(0deg 0% 100% / 60%);
+    width: max-content;
+    left: 0;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    user-select: none;
+}
+
+.swiper-button-next.popular-areas-next{
+    top: auto;
+    color: hsl(0deg 0% 100% / 60%);
+    width: max-content;
+    right: 0;
+    bottom: 0;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    user-select: none;
+}
+.swiper-button-prev.popular-areas-prev::after {
+    content: "";
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100px;
+    bottom: 0;
+}
+
+.swiper-button-next.popular-areas-next::after {
+    content: "";
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    right:0;
+    display: block;
+    width: 100px;
+    bottom: 0;
+}
 .popular-area-card {
-    /* border: 1px solid #ffffff40; */
     position: relative;
 }
 
@@ -1151,6 +1269,46 @@ font-weight: 400;
 }
 
 /* popular-areas end  */
+.discover-top-properties {
+    padding: 80px 0;
+}
+.discover-top-properties-wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ffffff40;
+    position: relative;
+}
+
+.read-more-content.read-more-text {
+    display: none;
+}
+.discover-top-properties-wrap .read-more-toggle {
+    color: var(--theme-clr);
+    border: 0;
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+    transform: translateY(50%);
+    background: var(--black);
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.discover-top-properties-wrap h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+.discover-top-properties-wrap h3 {
+    font-size: 24px;
+    margin: 0 0 15px;
+}
+
+.discover-top-properties-wrap ol li:not(:last-child) {
+    margin-bottom: 10px;
+}
 /* footer start  */
 .site-footer {
     padding: 84px 0 44px;

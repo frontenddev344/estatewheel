@@ -39,6 +39,29 @@
                   <li class="closed-menu"><a href="#"><i class="ri-close-line"></i></a></li>
                 </ul>
               </nav>
+              <div class="nav-right">
+                <div class="custom-lang-dropdown">
+                  <button class="lang-toggle">EN</button>
+                  <ul class="lang-menu">
+                    <li data-lang="en">En</li>
+                    <li data-lang="es">Es</li>
+                    <li data-lang="fr">Fr</li>
+                    <li data-lang="de">De</li>
+                  </ul>
+                </div>
+                <div class="follow-us">
+                  <span>follow us</span>
+                  <ul class="social">
+                      <li><a href="#"><i class="ri-facebook-fill"></i> Facebook</a></li>
+                      <li><a href="#"><i class="ri-twitter-fill"></i> Twitter</a></li>
+                      <li><a href="#"><i class="ri-instagram-fill"></i> Instagram</a></li>
+                      <li><a href="#"><i class="ri-linkedin-fill"></i> LinkedIn</a></li>
+                  </ul>
+                </div>
+                <div class="call-us">
+                  <a href="tel:(480) 555-0103">(480) 555-0103</a>
+                </div>
+              </div>
               <div class="menu-toggle">
                 <div class="bar-1"></div>
                 <div class="bar-2"></div>
@@ -428,43 +451,76 @@
                     <p class="sub-title">Explore the most sought-after areas in Dubai</p>
                 </div>
                 <div class="popular-areas-warp">
-                    <div class="grid grid-cols-4">
-                        <div class="popular-area-card">
-                            <div class="popular-area-card-img">
-                                <img src="images/popular-card-1.png" alt="popular-area-img">
+                    <div class="swiper popular-areas-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="popular-area-card">
+                                    <a href="#">
+                                        <div class="popular-area-card-img">
+                                            <img src="images/popular-card-1.png" alt="popular-area-img">
+                                        </div>
+                                        <div class="popular-card-content">
+                                            <h4>Palm Jebel Ali</h4>
+                                            <span>Price from 18,000,000 AED</span>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="popular-card-content">
-                                <h4>Palm Jebel Ali</h4>
-                                <span>Price from 18,000,000 AED</span>
+                            <div class="swiper-slide">
+                                <div class="popular-area-card">
+                                    <a href="#">
+                                        <div class="popular-area-card-img">
+                                            <img src="images/poplular-card-2.png" alt="popular-area-img">
+                                        </div>
+                                        <div class="popular-card-content">
+                                            <h4>Downtown Dubai</h4>
+                                            <span>Price from 428,000 AED</span>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
+                            <div class="swiper-slide">
+                                <div class="popular-area-card">
+                                    <a href="#">
+                                        <div class="popular-area-card-img">
+                                            <img src="images/poplular-card-3.png" alt="popular-area-img">
+                                        </div>
+                                        <div class="popular-card-content">
+                                            <h4>Palm Jumeirah</h4>
+                                            <span>Price from 1,000,000 AED</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="popular-area-card">
+                                    <a href="#">
+                                        <div class="popular-area-card-img">
+                                            <img src="images/poplular-card-4.png" alt="popular-area-img">
+                                        </div>
+                                        <div class="popular-card-content">
+                                            <h4>Emaar Beachfront</h4>
+                                            <span>Price from 1,500,000 AED</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="popular-area-card">
+                                  <a href="#">
+                                      <div class="popular-area-card-img">
+                                          <img src="images/popular-card-1.png" alt="popular-area-img">
+                                      </div>
+                                      <div class="popular-card-content">
+                                          <h4>Palm Jebel Ali</h4>
+                                          <span>Price from 18,000,000 AED</span>
+                                      </div>
+                                  </a>
+                              </div>
+                          </div>
                         </div>
-                        <div class="popular-area-card">
-                            <div class="popular-area-card-img">
-                                <img src="images/poplular-card-2.png" alt="popular-area-img">
-                            </div>
-                            <div class="popular-card-content">
-                                <h4>Downtown Dubai</h4>
-                                <span>Price from 428,000 AED</span>
-                            </div>
-                        </div>
-                        <div class="popular-area-card">
-                            <div class="popular-area-card-img">
-                                <img src="images/poplular-card-3.png" alt="popular-area-img">
-                            </div>
-                            <div class="popular-card-content">
-                                <h4>Palm Jumeirah</h4>
-                                <span>Price from 1,000,000 AED</span>
-                            </div>
-                        </div>
-                        <div class="popular-area-card">
-                            <div class="popular-area-card-img">
-                                <img src="images/poplular-card-4.png" alt="popular-area-img">
-                            </div>
-                            <div class="popular-card-content">
-                                <h4>Emaar Beachfront</h4>
-                                <span>Price from 1,500,000 AED</span>
-                            </div>
-                        </div>
+                        <div class="swiper-button-next popular-areas-next">next</div>
+                        <div class="swiper-button-prev popular-areas-prev">Prev</div>
                     </div>
                 </div>
             </div>
@@ -517,259 +573,306 @@
                 </section>
                 <!-- why us section end -->
                  <!-- blog section start  -->
-                <section class="blog-sec">
-                    <div class="container">
-                      <h2 class="section-title">Useful Articles</h2>
-                      <p class="sub-title">Insightful articles covering diverse real estate topics for informed decisions.</p>
-                      <div class="blog-card-wrap">
-                        <div class="grid">
-                          <div class="item">
-                            <div class="blog-card">
-                              <div class="blog-image">
-                                <img src="images/listing-card-1.png" alt="blog-img">
-                              </div>
-                              <div class="blog-content">
-                                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
-                                  <p>Business Bay, located in the heart of Dubai, is a…</p>
-                                  <div class="blog-date">
-                                      <i class="ri-calendar-2-fill"></i>
-                                      <span>March 21st, 2025</span>
-                                  </div>
-                                  <a href="#">learn more</a>
+<section class="blog-sec">
+    <div class="container">
+      <h2 class="section-title">Useful Articles</h2>
+      <p class="sub-title">Insightful articles covering diverse real estate topics for informed decisions.</p>
+      <div class="blog-card-wrap">
+        <div class="grid">
+          <div class="item">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/listing-card-1.png" alt="blog-img">
+              </div>
+              <div class="blog-content">
+                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
+                  <p>Business Bay, located in the heart of Dubai, is a…</p>
+                  <div class="blog-date">
+                      <i class="ri-calendar-2-fill"></i>
+                      <span>March 21st, 2025</span>
+                  </div>
+                  <a href="#">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/listing-card-2.png" alt="blog-img">
+              </div>
+              <div class="blog-content">
+                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
+                  <p>Business Bay, located in the heart of Dubai, is a…</p>
+                  <div class="blog-date">
+                      <i class="ri-calendar-2-fill"></i>
+                      <span>March 21st, 2025</span>
+                  </div>
+                  <a href="#">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/listing-card-3.png" alt="blog-img">
+              </div>
+              <div class="blog-content">
+                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
+                  <p>Business Bay, located in the heart of Dubai, is a…</p>
+                  <div class="blog-date">
+                      <i class="ri-calendar-2-fill"></i>
+                      <span>March 21st, 2025</span>
+                  </div>
+                  <a href="#">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/listing-card-4.png" alt="blog-img">
+              </div>
+              <div class="blog-content">
+                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
+                  <p>Business Bay, located in the heart of Dubai, is a…</p>
+                  <div class="blog-date">
+                      <i class="ri-calendar-2-fill"></i>
+                      <span>March 21st, 2025</span>
+                  </div>
+                  <a href="#">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/listing-card-5.png" alt="blog-img">
+              </div>
+              <div class="blog-content">
+                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
+                  <p>Business Bay, located in the heart of Dubai, is a…</p>
+                  <div class="blog-date">
+                      <i class="ri-calendar-2-fill"></i>
+                      <span>March 21st, 2025</span>
+                  </div>
+                  <a href="#">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="images/listing-card-6.png" alt="blog-img">
+              </div>
+              <div class="blog-content">
+                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
+                  <p>Business Bay, located in the heart of Dubai, is a…</p>
+                  <div class="blog-date">
+                      <i class="ri-calendar-2-fill"></i>
+                      <span>March 21st, 2025</span>
+                  </div>
+                  <a href="#">learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="load-more">
+            <button class="primary-btn">Load More Blog Posts</button>
+        </div>
+    </div>
+    </div>
+  </section>
+  <!-- blog section end  -->
+
+  <section class="discover-top-properties">
+    <div class="container">
+      <div class="discover-top-properties-wrap">
+        <button class="read-more-toggle">read-more</button>
+        <h2>Discover Top Properties Developers & Prime Properties for Sale.</h2>
+        <h3>Introduction:</h3>
+        <p>The <strong>Real Estate Companies in Dubai</strong> have been one of the world’s most profitable and rapidly expanding industries. Dubai has experienced significant expansion in both residential and commercial real estate as a major business and leisure destination. Finding the ideal investment or dream house is now simpler than ever thanks to the numerous real estate firms in Dubai that offer a large selection of properties. For both buyers and investors, Estate Wheel, one of Dubai’s top real estate developers, provides a range of cutting-edge and opulent options.</p>
+        <div class="read-more-content read-more-text">
+            <p><strong>Why is Dubai the Ultimate Destination for Real Estate Investment?</strong></p>
+            <p>Dubai has long been renowned for its stunning skyline and innovative development. The city has developed into a major international centre for luxury living, business, and tourism during the last few decades. Demand for real estate in Dubai has surged, drawing in investors from across the globe. The city provides a wide range of options to suit every taste and budget, whether you’re looking for Properties for sale as a new residence or as an investment.</p>
+            <p><strong>The Role of </strong><strong>Real Estate Developers in Dubai.</strong></p>
+            <p><strong>Real Estate Developers in Dubai</strong> are essential to the city’s ongoing growth. These businesses are in charge of planning, creating, and building top-notch mixed-use, residential, and commercial developments. Leading developer Estate Wheel is renowned for its dedication to providing premium, eco-friendly, and creative real estate solutions. The company specialises in developing homes that are perfect for both living and investing since they combine elegance and functionality.</p>
+            <p><strong>Top Trends in Properties</strong></p>
+            <p>The real estate market’s trends are changing along with Dubai. These patterns have an impact on people’s housing choices, as well as the kinds of houses that are available. Some of the top trends in Properties include:</p>
+            <ol>
+               <li><strong>Sustainable and Green Developments</strong>: Many Properties listings now feature eco-friendly architecture and energy-efficient technologies as a result of the increased focus on sustainability.</li>
+               <li><strong>Smart Homes and Technology Integration</strong>: Smart house technology is being used more and more by Properties firms to provide homeowners with energy efficiency, convenience, and security.</li>
+               <li><strong>Luxury Living</strong>: The demand for upscale real estate is still being driven by Dubai’s standing as a luxury travel destination. There is a strong demand for penthouses, apartments, and luxury villas.</li>
+               <li><strong>Affordable Housing</strong>: In addition to the flourishing luxury real estate market, Dubai is seeing an increase in middle-class consumers’ access to cheap property.</li>
+            </ol>
+            <p><strong>Why Choose Estate Wheel as Your Real Estate Partner?</strong></p>
+            <p>Working with a reputable developer who is aware of the peculiarities of the local market and can provide tailored solutions is essential while searching for real estate in Dubai. We guarantee that every client’s needs are satisfied with the highest level of professionalism thanks to its portfolio of high-end residential and commercial projects.</p>
+            <p><strong>The Process of Buying</strong><strong> Dubai Properties for Sale</strong></p>
+            <p>Buying real estate in Dubai might be intimidating for investors or first-time homebuyers. Nonetheless, the procedure can be profitable and easy with the correct direction. Here is a brief breakdown of how to navigate the process of buying properties:</p>
+            <ol>
+               <li><strong>Research the Market</strong>: It’s critical to comprehend current market trends and property values prior to making a commitment to a property. Having access to current information is guaranteed when you work with a reputable real estate firm like us.</li>
+               <li><strong>Choose the Right Property</strong>: Dubai provides a variety of properties to meet every requirement, whether you’re searching for commercial spaces, family villas, or opulent apartments. The staff at Estate Wheel will assist you in reducing your alternatives according to your location, tastes, and budget.</li>
+               <li><strong>Secure Financing</strong>: It’s critical to comprehend the many financing possibilities offered in Dubai if you need a mortgage. We are one of several real estate firms in Dubai that may put you in touch with banks that provide affordable mortgage rates.</li>
+               <li><strong>Complete the Paperwork</strong>: Completing the required documentation is the last step after choosing a property and obtaining financing. Throughout this procedure, we offer legal assistance and direction to guarantee that every transaction is completed without a hitch.</li>
+               <li><strong>Take Possession of Your Property</strong>: You will be able to take possession of your property once all the paperwork is finished. We guarantee that every property is delivered on time and in good condition, ready for occupancy.</li>
+            </ol>
+            <p><strong>Investment Opportunities in Properties.</strong></p>
+            <p>Some of the key reasons to consider investing in Properties include:</p>
+            <ol>
+               <li><strong>High Rental Yields</strong>: Dubai is known for offering some of the highest rental yields in the world, making it an ideal location for property investors seeking passive income.</li>
+               <li><strong>Tax-Free Environment</strong>: Dubai offers tax-free income, which is an attractive proposition for real estate investors.</li>
+               <li><strong>Strong Capital Appreciation</strong>: Over the years, Properties has shown consistent growth in terms of capital appreciation, making it a safe bet for long-term investment.</li>
+               <li><strong>Diversification</strong>: With an array of properties available for sale, investors can diversify their portfolios by investing in residential, commercial, or mixed-use developments.</li>
+            </ol>
+            <p><strong>Conclusion.</strong></p>
+            <p>Whether you’re looking to buy your next dream house or invest, <strong>Real Estate Companies in Dubai</strong> have a tonne of possibilities. There is no lack of houses for sale in Dubai, ranging from contemporary apartments to opulent mansions. Working with a seasoned and reliable real estate developer like us, guarantees that you will get knowledgeable direction and assistance at every stage of the procedure. Estate Wheel, one of Dubai’s top real estate developers, is committed to creating outstanding homes that satisfy both domestic and foreign purchasers. <strong>Real Estate Companies in Dubai </strong>are a great place to be if you’re seeking for an investment property or a family home.</p>
+            <p>Contact us right now for knowledgeable guidance and property selections that meet your demands if you’re prepared to invest in the Dubai real estate market.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- gaq start  -->
+<section class="faq">
+    <div class="container">
+        <h2 class="section-title">Faq's</h2>
+        <div class="faq-wrap">
+            <div class="grid grid-cols-2">
+                <div class="item">
+                    <div class="accrodtion-card">
+                        <div class="accordion accordion-flush" id="accordionFlushExample1">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour1" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    Can foreigners buy property in Dubai?                                                   
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                  <div class="accordion-body">Yes, foreigners can buy property in Dubai. There are designated freehold areas where non-UAE nationals can purchase, own, and sell property.</div>
                               </div>
                             </div>
-                          </div>
-                          <div class="item">
-                            <div class="blog-card">
-                              <div class="blog-image">
-                                <img src="images/listing-card-2.png" alt="blog-img">
-                              </div>
-                              <div class="blog-content">
-                                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
-                                  <p>Business Bay, located in the heart of Dubai, is a…</p>
-                                  <div class="blog-date">
-                                      <i class="ri-calendar-2-fill"></i>
-                                      <span>March 21st, 2025</span>
-                                  </div>
-                                  <a href="#">learn more</a>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour2" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What types of properties are available for purchase?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                  <div class="accordion-body">Dubai offers a variety of properties, including luxury properties, apartments, and villas. These range from high-end, waterfront homes to more affordable apartment options.</div>
                               </div>
                             </div>
-                          </div>
-                          <div class="item">
-                            <div class="blog-card">
-                              <div class="blog-image">
-                                <img src="images/listing-card-3.png" alt="blog-img">
-                              </div>
-                              <div class="blog-content">
-                                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
-                                  <p>Business Bay, located in the heart of Dubai, is a…</p>
-                                  <div class="blog-date">
-                                      <i class="ri-calendar-2-fill"></i>
-                                      <span>March 21st, 2025</span>
-                                  </div>
-                                  <a href="#">learn more</a>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour3" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What are the main freehold areas in Dubai?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                  <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
                               </div>
                             </div>
-                          </div>
-                          <div class="item">
-                            <div class="blog-card">
-                              <div class="blog-image">
-                                <img src="images/listing-card-4.png" alt="blog-img">
-                              </div>
-                              <div class="blog-content">
-                                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
-                                  <p>Business Bay, located in the heart of Dubai, is a…</p>
-                                  <div class="blog-date">
-                                      <i class="ri-calendar-2-fill"></i>
-                                      <span>March 21st, 2025</span>
-                                  </div>
-                                  <a href="#">learn more</a>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour4" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What are the main freehold areas in Dubai?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                  <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
                               </div>
                             </div>
-                          </div>
-                          <div class="item">
-                            <div class="blog-card">
-                              <div class="blog-image">
-                                <img src="images/listing-card-5.png" alt="blog-img">
-                              </div>
-                              <div class="blog-content">
-                                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
-                                  <p>Business Bay, located in the heart of Dubai, is a…</p>
-                                  <div class="blog-date">
-                                      <i class="ri-calendar-2-fill"></i>
-                                      <span>March 21st, 2025</span>
-                                  </div>
-                                  <a href="#">learn more</a>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour5" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What are the main freehold areas in Dubai?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                  <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
                               </div>
                             </div>
-                          </div>
-                          <div class="item">
-                            <div class="blog-card">
-                              <div class="blog-image">
-                                <img src="images/listing-card-6.png" alt="blog-img">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour6" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What are the main freehold areas in Dubai?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                  <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
                               </div>
-                              <div class="blog-content">
-                                <h4>Find Your Luxury Haven Buy Property in Business Bay</h4>
-                                  <p>Business Bay, located in the heart of Dubai, is a…</p>
-                                  <div class="blog-date">
-                                      <i class="ri-calendar-2-fill"></i>
-                                      <span>March 21st, 2025</span>
-                                  </div>
-                                  <a href="#">learn more</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="load-more">
-                            <button class="primary-btn">Load More Blog Posts</button>
-                        </div>
-                    </div>
-                    </div>
-                  </section>
-                  <!-- blog section end  -->
-                <!-- gaq start  -->
-            <section class="faq">
-                <div class="container">
-                    <h2 class="section-title">Faq's</h2>
-                    <div class="faq-wrap">
-                        <div class="grid grid-cols-2">
-                            <div class="item">
-                                <div class="accrodtion-card">
-                                    <div class="accordion accordion-flush" id="accordionFlushExample1">
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour1" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                Can foreigners buy property in Dubai?                                                   
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-                                             <div class="accordion-body">Yes, foreigners can buy property in Dubai. There are designated freehold areas where non-UAE nationals can purchase, own, and sell property.</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour2" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What types of properties are available for purchase?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-                                             <div class="accordion-body">Dubai offers a variety of properties, including luxury properties, apartments, and villas. These range from high-end, waterfront homes to more affordable apartment options.</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour3" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What are the main freehold areas in Dubai?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-                                             <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour4" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What are the main freehold areas in Dubai?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-                                             <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour5" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What are the main freehold areas in Dubai?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-                                             <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour6" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What are the main freehold areas in Dubai?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-                                             <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                            </div>
-                            <div class="item">
-                                <div class="accrodtion-card">
-                                    <div class="accordion accordion-flush" id="accordionFlushExample2">
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour7" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                Can foreigners buy property in Dubai?                                                   
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                                             <div class="accordion-body">Yes, foreigners can buy property in Dubai. There are designated freehold areas where non-UAE nationals can purchase, own, and sell property.</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour8" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What types of properties are available for purchase?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                                             <div class="accordion-body">Dubai offers a variety of properties, including luxury properties, apartments, and villas. These range from high-end, waterfront homes to more affordable apartment options.</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour9" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What are the main freehold areas in Dubai?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                                             <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour10" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What are the main freehold areas in Dubai?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                                             <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour11" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What are the main freehold areas in Dubai?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour11" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                                             <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
-                                          </div>
-                                       </div>
-                                       <div class="accordion-item">
-                                          <h2 class="accordion-header">
-                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour12" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                What are the main freehold areas in Dubai?                                                  
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapsefour12" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
-                                             <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
                             </div>
                         </div>
-                    </div>
+                      </div>
                 </div>
-            </section>
-            <!-- faq end  -->
+                <div class="item">
+                    <div class="accrodtion-card">
+                        <div class="accordion accordion-flush" id="accordionFlushExample2">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour7" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    Can foreigners buy property in Dubai?                                                   
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                  <div class="accordion-body">Yes, foreigners can buy property in Dubai. There are designated freehold areas where non-UAE nationals can purchase, own, and sell property.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour8" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What types of properties are available for purchase?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                  <div class="accordion-body">Dubai offers a variety of properties, including luxury properties, apartments, and villas. These range from high-end, waterfront homes to more affordable apartment options.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour9" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What are the main freehold areas in Dubai?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                  <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour10" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What are the main freehold areas in Dubai?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                  <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour11" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What are the main freehold areas in Dubai?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour11" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                  <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour12" aria-expanded="false" aria-controls="flush-collapsefour">
+                                    What are the main freehold areas in Dubai?                                                  
+                                </button>
+                              </h2>
+                              <div id="flush-collapsefour12" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                  <div class="accordion-body">Some of the most popular freehold areas include Downtown Dubai, Dubai Marina, Palm Jumeirah, Jumeirah Lakes Towers (JLT), Arabian Ranches, and Business Bay</div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- faq end  -->
           <!-- footer start  -->
           <footer class="site-footer">
             <div class="container">
