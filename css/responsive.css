@@ -1,42 +1,11 @@
 
 @media screen and (max-width:1600px) {
-	.desktop-menu {
-		grid-gap: 40px;
-	}
-
-	.banner-content {
-		margin-left: 20px;
-		max-width: 950px;
-	}
-
-	.banner-content h1 {
-		font-size: 70px;
-	}
-
-	.site-nav li a.secondary-btn {
-		font-size: 16px;
-	}
-
-	.heading-deatils {
-		padding-left: 40px;
-	}
-
-	.section-title {
-		font-size: 46px;
-	}
-
-	.site-banner {
-		height: 950px;
-	}
+	
 
 	
 }
 
-@media screen and (max-width:1400px) {
-	.desktop-menu {
-		display: flex;
-		justify-content: space-between;
-	}
+@media screen and (max-width:1200px) {
 
 	.mobile-menu {
 		display: block;
@@ -125,238 +94,28 @@
 		max-width: 840px;
 	}
 
-	.accrodtion-card .accordion .accordion-button {
-		font-size: 26px;
-	}
-
-	.why_box h3 {
-		font-size: 26px;
-	}
-
-	.why_box {
-		padding: 44px 24px;
-	}
-
-	.why_box p {
-		font-size: 22px;
-	}
-
-	
-	.accrodtion-card .accordion .accordion-body {
-		font-size: 22px;
-	}
-
-	.accrodtion-card p {
-		font-size: 22px;
-	}
 
 }
 
 @media screen and (max-width:1200px) {
-	.container {
-		max-width: calc(100% - 90px);
-	}
-
-	.secondary-btn {
-		padding: 16px 22px;
-		font-size: 18px;
-	}
-
-	.primary-btn {
-		padding: 16px 22px;
-		font-size: 18px;
-	}
-
-
-	.section-title {
-		font-size: 32px;
-	}
-
-	.sub-title {
-		font-size: 24px;
-		max-width: 600px;
-	}
-
-
-	.accrodtion-card .accordion .accordion-button {
-		font-size: 22px;
-	}
-
-	.accrodtion-card .accordion .accordion-body {
-		font-size: 20px;
-	}
-
-
-	.accrodtion-card p {
-		font-size: 20px;
-	}
 
 }
 
 @media screen and (max-width:1024px) {
 
-	.banner-content h1 {
-		font-size: 42px;
-	}
-
-	.site-banner {
-		height: 700px;
-	}
-
-	.section-title {
-		font-size: 28px;
-	}
-
-	.sub-title {
-		font-size: 22px;
-		max-width: 600px;
-	}
-
-	.banner-content h1 {
-		font-size: 40px;
-	}
-
-	.banner-content {
-		max-width: 600px;
-	}
 
 }
 
 @media screen and (max-width:991px) {
-	.site-header .container {
-		padding: 20px;
-	}
-
-	.accrodtion-card {
-		padding: 80px 25px;
-	}
-
-	.accrodtion-card .accordion .accordion-button {
-		font-size: 20px;
-		padding: 20px 0;
-	}
-
-	
-	.section-title {
-		font-size: 26px;
-	}
-
-	.sub-title {
-		font-size: 20px;
-		max-width: 100%;
-	}
-
-
-	.accrodtion-card p {
-		font-size: 18px;
-	}
 
 }
 
 
 @media screen and (max-width:768px) {
-	.site-logo img {
-		max-width: 120px;
-	}
-
-
-	.accrodtion-card {
-		padding: 40px 25px;
-	}
-
-
-	.banner-content h1 {
-		font-size: 34px;
-	}
-
-	.accrodtion-card .accordion .accordion-body {
-		font-size: 18px;
-	}
 	
 }
 
 @media screen and (max-width:575px) {
-	.container {
-		max-width: calc(100% - 45px);
-		margin-left: 0;
-	}
-
-	.site-nav {
-		max-width: 100%;
-	}
-
-	.site-logo img {
-		max-width: 90px;
-	}
-
-	.banner-content h1 {
-		font-size: 28px;
-	}
-
-
-	.secondary-btn {
-		padding: 12px 22px;
-		font-size: 16px;
-	}
-
-	.primary-btn {
-		padding: 12px 22px;
-		font-size: 16px;
-	}
-
-	.section-title {
-		font-size: 24px;
-	}
-
-	.sub-title {
-		font-size: 18px;
-	}
-
-	.site-banner {
-		height: 550px;
-	}
-
-	
-}
-
-@media screen and (max-width:480px) {
-	.banner-content h1 {
-		font-size: 24px;
-		line-height: 1.7;
-	}
-
-	.section-title {
-		font-size: 22px;
-	}
-
-	.sub-title {
-		font-size: 17px;
-	}
-
-	.listing-card-header p {
-		font-size: 20px;
-	}
-
-	.listing-card-content li {
-		font-size: 16px;
-	}
-
-	.listing-card-header {
-		padding: 20px 15px 20px;
-	}
-
-	.listing-card-footer {
-		padding: 20px 15px;
-	}
-
-	.listing-card-content {
-		padding: 20px 15px;
-	}
-
-	.listing-card-header p {
-		font-size: 18px;
-	}
-
 
 }
 
